@@ -67,7 +67,7 @@ public class MainView extends PolymerTemplate<TemplateModel>
 			pages.add(new PageInfo(PAGE_USERS, ICON_USERS, TITLE_USERS));
 		}
 		if (SecurityUtils.isAccessGranted(ProductsView.class)) {
-			pages.add(new PageInfo(PAGE_PRODUCTS, ICON_PRODUCTS, TITLE_PRODUCTS));
+			//pages.add(new PageInfo(PAGE_PRODUCTS, ICON_PRODUCTS, TITLE_PRODUCTS));
 		}
 		pages.add(new PageInfo(PAGE_LOGOUT, ICON_LOGOUT, TITLE_LOGOUT));
 
